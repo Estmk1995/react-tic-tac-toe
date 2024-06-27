@@ -1,0 +1,63 @@
+body{
+  background-color:greenyellow ;
+}
+/* Contenedor del juego */
+.game {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+}
+ 
+/* Tablero del juego */
+.game-board {
+  margin-right: 20px;
+}
+ 
+/* Información del juego */
+.game-info {
+  margin-left: 20px;
+}
+ 
+/* Estado del juego */
+.status {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+ 
+/* Filas del tablero */
+.board-row {
+  display: flex;
+}
+ 
+/* Cuadrado del tablero */
+.square {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+ 
+.square:hover {
+  background: #ddd;
+}
+ 
+.square:active {
+  background: #ccc;
+}
+ 
+/* Botones de historial */
+.game-info button {
+  margin: 5px 0;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
